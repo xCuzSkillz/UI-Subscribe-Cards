@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1E162E;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.container{width: 50%;}
+
+.main-title{
+    margin-top: 10%;
+    text-align: left;
+}
+.pc-box{
+    background-color: #211e37;
+    padding: 18px 32px;
+    width: 100%;
+    margin-top: 3%;
+    border-radius: 7px;
+    padding-bottom: 4rem;
+}
+.card-title{
+    text-align: left;  
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 5%;
+}
+.card-descreption{
+   text-align: left; 
+   margin-top: 2%;
+   font-size: 19px;
+   font-weight: 200;
+   color: #BCBBC6;
+}
+.sumbit-section{
+    text-align: left;
+    margin-top: 7%;
+}
+label{
+    color: #BCBBC6;   
+}
+.input-field{
+    display: block;
+    padding: 13px 22px;
+    margin-top: 1%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #545466;
+    border-radius: 4px;
+    width: 66%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn-subscribe{
+    display: inline-block;
+    margin-top: 2%;
+    background-color: #7464FB;
+    color: #fff;
+    padding: 16px 32px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+@media screen and (max-width: 700px){ 
+  .container{
+      width: 90%;
+  }   
+}
